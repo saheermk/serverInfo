@@ -9,7 +9,6 @@ It automatically detects the environment and prints easy-to-understand system in
 * Local & Public IP (IPv4 + IPv6)
 * Web server status (Apache, Nginx, Lighttpd, BusyBox httpd, PHP built-in)
 * SSH & FTP service status
-* Open ports
 * Top resource-consuming processes
 * Uptime
 
@@ -132,11 +131,6 @@ Port(s): 8080
 
 Nginx: Not installed
 
---- ALL OPEN PORTS ---
-tcp 0.0.0.0:22
-tcp 0.0.0.0:8080
-tcp 0.0.0.0:2121
-
 --- UPTIME ---
 up 5 hours, 13 minutes
 
@@ -154,7 +148,6 @@ PID   CMD                CPU   MEM
 The script is fully self-contained with:
 
 * Service detection tools
-* Port analysis
 * Cross-platform checks
 * Fallback logic for missing commands
 * IPv4/IPv6 explicit detection
