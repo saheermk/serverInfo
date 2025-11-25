@@ -57,20 +57,20 @@ Readable by *humans*, not just sysadmins.
 Clone or copy the script into any directory:
 
 ```bash
-git clone https://github.com/yourusername/universal-server-info
-cd universal-server-info
+git clone https://github.com/saheermk/serverInfo
+cd serverInfo
 ```
 
 Make it executable:
 
 ```bash
-chmod +x server-info.sh
+chmod +x serverInfo.sh
 ```
 
 Run it:
 
 ```bash
-./server-info.sh
+./serverInfo.sh
 ```
 
 Works with:
